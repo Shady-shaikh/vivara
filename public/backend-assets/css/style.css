@@ -1,0 +1,12 @@
+.dataTables_filter {
+    float: right;
+}
+
+.dataTables_paginate {
+    float: right;
+    margin-top: 15px;
+}
+input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+    appearance: textfield; /* Other modern browsers */
+}

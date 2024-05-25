@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  min-height: 100vh;
+}
+
+.content {
+  background-color: #ffff;
+  padding: 50px 100px;
+  box-shadow: rgba(17, 17, 26, 0.22) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  border-radius: 10px;
+  width:1000px;
+}
+
+.login-section {
+  background-color: #ceecf5;
+}
+
+form {
+  height: 50%;
+}
+
+.form-group {
+  position: relative;
+}
+
+.fa-user,
+.fa-lock {
+  position: absolute;
+  top: 10px;
+  padding: 0px 10px;
+  color: #0059aa;
+}
+
+input,
+input::placeholder {
+  font: 13px sans-serif;
+  padding-left: 30px !important;
+  color: #ced4da;
+}
+
+.sign-in-btn {
+  background-color: #0059aa;
+  color: #ffff;
+  padding: 5px 30px;
+  font-weight: bold;
+}
+.form-control {
+  border: 2px solid #ced4da;
+}
+
+.form-heading {
+  font-size: 30px !important;
+  color: #0059aa;
+
+  font-weight: 700;
+}
+
+.credentials {
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: 500;
+  color: #9d9d9d;
+}
+.img-div {
+  padding-bottom: 30px;
+}
+
+.img-div img {
+  height: 100px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  html,
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .content {
+    padding: 30px 50px;
+  }
+}

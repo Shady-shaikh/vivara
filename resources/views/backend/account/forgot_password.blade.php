@@ -1,0 +1,97 @@
+@extends('backend.layouts.fullempty')
+@section('title', 'Forgot Password')
+@section('content')
+
+
+<style>
+    body {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .login-box {
+        background: #fff;
+    }
+
+    .btn-block {
+        text-transform: uppercase;
+        outline: 0;
+        background: #004761;
+        border: 0;
+        padding: 10px;
+        color: #ffffff;
+        font-size: 14px;
+    }
+
+    .form-control {
+        outline: 0;
+        background: #eff4f9;
+        width: 100%;
+        border: 0 !important;
+        margin: 0 0 15px;
+        padding: 10px;
+        border-radius: 0px !important;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+</style>
+
+<!-- login -->
+<section class="container-fluidcustom top-padding mt-5 login-page common-space">
+    <div class="login-box">
+        <div class="row py-5">
+            <div class="col-md-12">
+                <div class="container container-custom">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="border-login">
+                                <div class="login-inner-head">
+                                    <h3>Authentication is necessary in order to change password</h3>
+                                </div>
+                                <div class="using-box py-4">
+
+                                    <div class="row ">
+                                        <div class="col-md-12 col-sm-12 col-12">
+                                            <div class="login">
+                                                @include('backend.includes.errors')
+                                                <form class="login-form form-field" action="{{ route('admin.sendotp') }}" method="post">
+                                                    {{ csrf_field() }}
+                                                    <div class="form-group col-md-12">
+                                                        <div class="input-wrapper">
+                                                            <label for="user">Enter Email <span class="star">*</span></label>
+                                                            <input class="password form-control  form-control-h " name="email" type="email" value="{{ old('email') }}" required>
+
+                                                        </div>
+                                                        <p class="mb-0 py-1 set-otp">Details will be sent to your email</p>
+
+                                                    </div>
+                                                    <div class="form-group col-md-12 mb-0 terms-conditions-size1">
+                                                        <button type="submit" class="success-btn btn-block  text-center " href="#">Submit</button>
+                                                        <!-- <button type="submit" class="cancel-btn btn-block mt-4 text-center " href="#">Resend OTP</button> -->
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- login end-->
+
+
+
+
+
+
+@endsection

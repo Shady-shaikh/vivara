@@ -1,0 +1,89 @@
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #004460;
+  }
+  .admin-panel {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body::after {
+    position: absolute;
+    background-color: #faa52a;
+    height: 100%;
+    width: 22%;
+    left: 0;
+    top: 0;
+    content: "";
+  }
+  .adminpanel-left img {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+  }
+  .adminpanel-right h2 {
+    color: #004460;
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .logo-img {
+    margin-bottom: 20px;
+  }
+  .adminpanel-right {
+    background-color: #fff;
+    padding: 40px 60px;
+  }
+  .adminpanel-right label {
+    font-size: 16px;
+  }
+  .form-control {
+    background-color: #f3f3f3;
+    line-height: 42px;
+    border: 0px;
+    outline: none;
+    border-radius: 5px;
+    height: 42px;
+    color: #000;
+  }
+  .form-control::placeholder {
+    font-weight: 300;
+    color: #eee;
+  }
+  .login-btn {
+    background-color: #faa52a;
+    padding: 0 40px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 42px;
+    border-radius: 5px;
+    color: #fff;
+    height: 42px;
+  }
+  .login-btn:hover {
+    background-color: #004460;
+    color: #fff;
+  }
+  .adminpanel-left {
+    background-color: #00223e;
+    position: relative;
+    z-index: 2;
+  }
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .adminpanel-left img {
+      display: none;
+    }
+    .adminpanel-right {
+      position: relative;
+      z-index: 2;
+      padding: 30px 20px;
+    }
+    .adminpanel-right h2 {
+      font-size: 26px;
+    }
+  }
+
+
