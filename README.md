@@ -19,19 +19,19 @@ You might have heard about zoho books so this project is E-comm project having f
 ### Site Details
 
 * Home page
-* ![Home Page](https://shady-shaikh.github.io/portfolio_usama/projects/vivara%20(1).png)
+  ![Home Page](https://shady-shaikh.github.io/portfolio_usama/projects/vivara%20(1).png)
 * Product List Page
-* ![Product List](https://shady-shaikh.github.io/portfolio_usama/projects/vivara%20(2).png)
+  ![Product List](https://shady-shaikh.github.io/portfolio_usama/projects/vivara%20(2).png)
 * View Product
-* ![View Product](https://shady-shaikh.github.io/portfolio_usama/projects/vivara%20(3).png)
+  ![View Product](https://shady-shaikh.github.io/portfolio_usama/projects/vivara%20(3).png)
 * Cart Page Example
-* ![Cart Page](https://shady-shaikh.github.io/portfolio_usama/projects/vivara%20(4).png)
+  ![Cart Page](https://shady-shaikh.github.io/portfolio_usama/projects/vivara%20(4).png)
 * Backend Carousel Exmaple
-* ![Backend Carousel](https://shady-shaikh.github.io/portfolio_usama/projects/vivara%20(5).png)
+  ![Backend Carousel](https://shady-shaikh.github.io/portfolio_usama/projects/vivara%20(5).png)
 * Inventory Report
-* ![Inventory Report](https://shady-shaikh.github.io/portfolio_usama/projects/vivara%20(6).png)
+  ![Inventory Report](https://shady-shaikh.github.io/portfolio_usama/projects/vivara%20(6).png)
 * Invoice Page
-* ![Invoice Page](https://shady-shaikh.github.io/portfolio_usama/projects/vivara%20(7).png)
+  ![Invoice Page](https://shady-shaikh.github.io/portfolio_usama/projects/vivara%20(7).png)
 
 
 ### Executing program
