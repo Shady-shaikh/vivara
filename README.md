@@ -45,7 +45,12 @@ You might have heard about zoho books so this project is E-comm project having f
 
 ## Usage
 
-* You need to create an account in zoho books first 
+* You need to create an account in zoho books first
+* You can replace your organization id, client id and secret in .env file 
+* Need to generate temporary code using your client id and secret on zoho console https://accounts.zoho.com/signin?servicename=AaaServer&serviceurl=%2Fdeveloperconsole (use ZohoBooks.fullaccess.all scope can be found in https://www.zoho.com/books/api/v3/introduction/#organization-id)
+* Use this code to get authorized refresh tokens using postman 
+* Once you generate refresh tokens then replace it in get_random_refresh_token function of file https://github.com/Shady-shaikh/vivara/blob/main/app/Helpers/Helpers.php (add 4 diffrent refresh tokens)
+* do generate refresh tokens using ZohoInventory.fullaccess.all scope and use same api links
 * You can use some domain or NGROK to create temporary url of your project http://localhost/vivara/
 * Once your project is having https or it's live then you can put same url in webhooks along with functions like add/edit and delete
 * Your url in webhook should be like https:/somestring/vivara/handleZohoBooksWebhook and make sure to use trigger when added or edited for add/edit and add type parametere in url  as module_manage  and for delete use module_delete with deleted triggers (any field)
