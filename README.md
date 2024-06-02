@@ -47,7 +47,7 @@ You might have heard about zoho books so this project is E-comm project having f
 
 * You need to create an account in zoho books first 
 * You can use some domain or NGROK to create temporary url of your project http://localhost/vivara/
-* once your project is have https or live then you can put same url in webhooks along with functions like add/edit and delete
+* Once your project is having https or it's live then you can put same url in webhooks along with functions like add/edit and delete
 * Your url in webhook should be like https:/somestring/vivara/handleZohoBooksWebhook and make sure to use trigger when added or edited for add/edit and add type parametere in url  as module_manage  and for delete use module_delete with deleted triggers (any field)
 * Once all required webhooks are created then you can create items using item group module and make sure to add 3 attributes named as category,color and size
 * Now go to login page of our project after items are added and if you are a first time user then click on register and enter details
